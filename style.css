@@ -1,0 +1,42 @@
+.col-md-12 {
+  border: 5px solid #5A5D50;
+  margin-top: 50px;
+  text-color: green;
+  font-size: 20pt;
+  background: #717463;
+}
+
+.text-center {
+  margin: 20px auto;
+  background: #8C907B;
+}
+
+
+.board {
+  padding: 50px;
+  border: 1px solid black;
+}
+
+.col-xs-1 {
+  text-align: justify;
+}
+
+.exp-row {
+  margin-top: 100px;
+  border: 5px solid black;
+  width: auto;
+  height: 100px;
+}
+
+.red {
+  width:20px;
+  height: 20px;
+  background-color: red;
+}
+
+.blue {
+  margin-top: 50px;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
