@@ -26,31 +26,3 @@
   margin-top: 18px;
   margin-left: 5px
 }
-
-
-
-/* CSS FOR EVENTUAL ANIMATED AVATARS
-
-.exp-row {
-  margin-top: 90px;
-  border: 5px solid black;
-  width: auto;
-  height: 100px;
-  position: relative;
-}
-
-.red {
-  margin-top: 10px;
-  width:20px;
-  height: 20px;
-  background-color: red;
-  position: absolute;
-}
-
-.blue {
-  margin-top: 60px;
-  width: 20px;
-  height: 20px;
-  background-color: blue;
-  position: absolute;
-}

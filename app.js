@@ -19,21 +19,3 @@ $(document).on('ready', function() {
   });
 
 });
-
-
-
-
-//////////////////////////////////
-/*
-
-THIS FUNCTION WILL EVENTUALLY ANIMATE
-THE AVATARS
-
-$('.red').on('click', function() {
-  $(this).animate (
-    { left: 20 },
-    'slow');
-});
-
-*/
-//////////////////////////////////
