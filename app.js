@@ -5,7 +5,7 @@ $(document).on('ready', function() {
 
   $(window).keyup (function () {
     if (event.which === 65) {
-      console.log ("Ok, we're listening for A");
+      console.log ("Ok, we're listening for A ABC");
 
       //To determine how far red needs to go
       var redTrackWidth = ( $('#redTrack').width() );
