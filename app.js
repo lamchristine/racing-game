@@ -3,22 +3,33 @@ console.log ("OK");
 
 $(document).on('ready', function() {
 
-  $('.red').on('click', function() {
-    $(this).animate (
-      { left: 20 },
-      'slow');
+  $(document).keyup(function(objEvent) {
+    if (event.which === 65) {
+      console.log ("Ok, we're listening for A");
+    }
   });
+
+  $(document).keyup(function (objEvent) {
+    if (event.which === 76) {
+    console.log ("Ok, we're listening for L");
+    }
+  });
+
 
 });
 
+
+//////////////////////////////////
 /*
-})
-  $('.red').click (function animateImage() {
-    console.log("Called");
-    $('.red').css({right:"10px"});
-    $('.red').animate({right: '-5%'}, 400, 'swing', function(){animateImage();});
-  });
 
+THIS FUNCTION WILL EVENTUALLY ANIMATE
+THE AVATARS
 
+$('.red').on('click', function() {
+  $(this).animate (
+    { left: 20 },
+    'slow');
 });
+
 */
+//////////////////////////////////

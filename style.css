@@ -2,18 +2,30 @@
   margin: 20px auto;
 }
 
-
-.board {
-  padding: 50px;
-  border: 1px solid black;
-}
-
 .col-xs-1 {
   border: 1px solid black;
   height: 80px;
   width: 80px;
 
 }
+
+.redPlayer {
+  width:40px;
+  height: 40px;
+  background-color: red;
+  position: relative;
+}
+
+.bluePlayer {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  position: relative;
+}
+
+
+
+/* CSS FOR EVENTUAL ANIMATED AVATARS
 
 .exp-row {
   margin-top: 90px;
